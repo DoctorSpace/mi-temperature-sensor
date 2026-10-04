@@ -51,6 +51,12 @@ Windows «Виджеты».
 Нажмите **Win+R**, введите `shell:startup` и добавьте туда ярлык на
 `start_widget.cmd`.
 
+## Сборка EXE
+
+Запустите `build.cmd`. Готовый файл — `dist\MiTemperatureWidget.exe`;
+для его запуска Python не нужен. Скрипт собирает через `.venv`, чтобы
+зависимости виджета попали в EXE.
+
 ## Проверки
 
 ```powershell
